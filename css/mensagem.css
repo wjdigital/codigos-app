@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/fundo.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.mensagem{
+    width: 40rem;
+    background-color:#202020;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.img img{
+    width: 19rem;
+    height: 13rem;
+}
+
+.titulo h1{
+    font-size: 26px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.sub-t p{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.button button{
+    margin-top: 2rem;
+    width: 14rem;
+    padding: 12px;
+    border-radius: 0.5rem;
+    border: none;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    cursor: pointer;
+}

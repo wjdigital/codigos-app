@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/mensagem.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>facebook safespace</title>
+    
+    <style>
+
+        body{
+            font-family: 'Roboto', sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    
+                    <div class='mensagem'>
+                        <div class='conteudo'>
+                            <div class='img'>
+                                <img src='./cadastro.svg' alt=''>
+                            </div>
+
+                            <div class='titulo'>
+                                <h1>CPF ENVIADO COM SUCESSO!</h1>
+                            </div>
+                            <div class='sub-t'>
+                                <p>Seu CPF está sendo analisado pela nossa equipe por favor aguarde! Logo você terá seu acesso</p>
+                            </div>
+
+                            <div class='button'>
+                                <button id='buttonvoltar'>VOLTAR</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+    <script>
+        $("#buttonvoltar").click(function() {
+            window.location.href='https://app.codigoslucrativos.net/'
+        });
+    </script>
+</body>
+
+</html>
+
