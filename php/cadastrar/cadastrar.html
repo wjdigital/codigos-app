@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/logar.css">
+    <link rel="stylesheet" href="../../css/mobile/Mlocar.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>facebook safespace</title>
+</head>
+<body>
+    <section class="cad-sec">
+         <div class="imglogo">
+            <img src="../../img/avaliador-removebg.png" alt="" >
+        </div>
+        <div class="infos-logar">
+            <div class="titulo-logar">
+                <h1>Bem vindo</h1>
+                <p>Faça o cadastro para continuar</p>
+            </div>
+            <div class="input"> 
+                <form method="post" action="cadastrar.php">
+                    <h1>NOME</h1>
+                    <input type="text" name="nome" placeholder="Digite seu Nome" required onblur="validaNome(this);">
+                    <h1>CPF</h1>
+                    <input type="text" name="cpf" placeholder="Digite seu CPF" required onblur="validaCPF(this);" oninput="formatCPF(this)">
+                    <div class="buttonenvia" id="button">
+                        <input class="cadastar" id="buttondis" type="submit" name="enviar" value="ENVIAR" />
+                    </div>
+                    <p>Já possui conta aqui? <a href="../../index.html">Faça o Login</a></p>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    
+<script src="../../js/animacoes.js"></script>
+
+</body>
+</html>

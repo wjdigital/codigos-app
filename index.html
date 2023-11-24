@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/logar.css">
+    <link rel="stylesheet" href="css/mobile/Mlocar.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <title>CODIGOS LUCRATIVOS</title>
+</head>
+<body>
+    <section>
+         <div class="imglogo">
+            <img src="img/avaliador-removebg.png" alt="" >
+        </div>
+        <div class="infos-logar">
+            <div class="titulo-logar">
+                <h1>Bem vindo</h1>
+                <p>Muitas pessoas estão vendendo o acesso ao nosso produto e se você não comprou o app oficial, não terá acesso... Portanto adquira sua LICENÇA agora no BOTÃO ABAIXO COM DESCONTO:</p>
+                <div class="buttonlink">
+                    <button id="linkcompra">CLIQUE AQUI</button>
+                </div>
+
+            </div>
+            <div class="input">
+                <form method="post" action="php/logar.php">
+                    <h1>CPF</h1>
+                    <input type="text" name="cpf" placeholder="Digite seu CPF" id="cpf" oninput="formatCPF(this)">
+                    <div class="buttonenvia">
+                        <input class="cadastar" id="botaocadastro" type="submit" name="enviar" value="ENTRAR" />
+                    </div>
+                    <p>Primeira vez aqui? <a href="php/cadastrar/cadastrar.html">Faça o cadastro</a></p>
+
+                    
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+    
+<script src="js/animacoes.js"></script>
+<script>
+    $('#linkcompra').click(function() {
+        window.location.href='https://go.iexperience.com.br/f07d4c93'
+    })
+    
+</script>
+</body>
+</html>
